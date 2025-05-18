@@ -22,8 +22,9 @@ Key features include:
 
 ## Live Website
 
-Visit: **https://github.com/STU105154/e-bike-dashboard**
+Visit: **https://yourusername.github.io/e-bike-dashboard**
 
 ## Licence
 
 This repository contains academic artefact materials only. All data used is publicly available via CitiBike and EEA under open data terms.
+
