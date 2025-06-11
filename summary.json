@@ -1,0 +1,15 @@
+{
+  "distance": {
+    "labels": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "values": [2.1, 2.3, 2.4, 2.2, 2.0]
+  },
+  "hours": {
+    "labels": ["6 AM", "7 AM", "8 AM", "9 AM", "5 PM", "6 PM"],
+    "values": [120, 150, 200, 180, 210, 190]
+  },
+  "usertypes": {
+    "labels": ["Subscriber", "Casual"],
+    "values": [75, 25]
+  },
+  "co2": 98.7
+}
