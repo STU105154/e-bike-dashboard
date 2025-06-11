@@ -19,11 +19,15 @@ body {
   }
   
   nav a {
-    margin: 0 1em;
+    margin: 5px;
     text-decoration: none;
     color: #2d3e50;
     font-weight: bold;
-  }
+    border: 1px gray solid;
+    padding: 5px;
+    line-height: 35px;
+    border-radius: 5px;
+ }
   
   main {
     padding: 2em;
