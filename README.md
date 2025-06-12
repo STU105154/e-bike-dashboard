@@ -1,30 +1,48 @@
-# E-Bike Usage Dashboard (NYC)
+# E-Bike Dashboard
 
-This is a static website presenting a visual artefact for the undergraduate dissertation:  
-**"Visualizing Urban E-Bike Usage: A Web-Based Dashboard for Sustainable Mobility Insights"**  
-Submitted by Patricia de Oliveira Figueira Pinto, Arden University, 2025
+This project is a browser-based dashboard designed to visualise public e-bike journey data. It transforms large, anonymised datasets into accessible visual summaries to help general audiences better understand sustainable transport patterns.
 
-## About the Project
+## Project Overview
 
-This site visualizes real-world e-bike usage patterns in New York City using open CitiBike data.  
-Key features include:
+The dashboard was created as part of a final-year dissertation project at Arden University. Its aim is to bridge the gap between open mobility data and public understanding by offering a simple, interpretable, and ethically responsible data visualisation tool.
 
-- Trip volume by time of day and user type
-- Station-level usage heatmap
-- Estimated CO₂ emissions avoided
-- Methodological summary of calculations
+It features:
+- Visualisations of trip frequency by hour of day and day of week
+- User type comparisons (subscribers vs casual riders)
+- Fully static and client-side architecture (no backend or server required)
+- Mobile-first responsive design for accessibility across devices
 
-## Tools Used
+## Live Demo
 
-- HTML/CSS for structure and layout
-- Static images created in Excel/PowerPoint
-- Hosted via GitHub Pages
+View the dashboard online at:  
+👉 [https://stu105154.github.io/e-bike-dashboard/](https://stu105154.github.io/e-bike-dashboard/)
 
-## Live Website
+## Technologies Used
 
-Visit: **https://yourusername.github.io/e-bike-dashboard**
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Chart.js for visualisation
 
-## Licence
+## Data Sources
 
-This repository contains academic artefact materials only. All data used is publicly available via CitiBike and EEA under open data terms.
+All data used in this dashboard is openly available and fully anonymised:
 
+- [Citi Bike NYC Trip Data](https://www.citibikenyc.com/system-data)
+- [Transport for London (TfL) Open Data](https://tfl.gov.uk/info-for/open-data-users/)
+
+Data has been preprocessed into lightweight JSON files for browser compatibility.
+
+## Ethical Considerations
+
+- No personal data is collected or stored.
+- No cookies, trackers, or analytics are used.
+- All datasets are published under open government licences.
+- This project adheres to GDPR and accessibility guidelines (WCAG 2.1).
+
+## Usage
+
+To run the dashboard locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stu105154/e-bike-dashboard.git
